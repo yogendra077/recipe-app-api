@@ -1,4 +1,6 @@
-
+"""
+Django command to wait for the database to be available.
+"""
 # django command to wait_for_db to be available
 import time
 from django import db
@@ -7,6 +9,8 @@ from django.db.utils import OperationalError
 from django.core.management.base import BaseCommand
 
 class Command(BaseCommand):
+    """Django command to wait for database."""
+
     # django command to wait_for_db
 
     def handle(self,*args,**options):

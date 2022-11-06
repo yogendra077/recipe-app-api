@@ -21,3 +21,4 @@ class CommonTests(SimpleTestCase):
         call_command('wait_for_db')
         self.assertEqual(patched_check.call_count, 6)
         patched_check.assert_called_with(databases=['default'])
+
