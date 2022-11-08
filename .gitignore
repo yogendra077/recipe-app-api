@@ -1,3 +1,7 @@
+# http://127.0.0.1:8000/
+# for swagger http://127.0.0.1:8000/api/docs/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
